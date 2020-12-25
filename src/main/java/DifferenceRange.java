@@ -3,11 +3,11 @@ public class DifferenceRange {
         if (m < 0 || n < 0) return -1;
         int divisibleSum = 0;
         int nonDivisibleSum = 0;
-        for (int i = 1; i <= m; i++) {
-            if (i % n == 0)
-                divisibleSum += i;
+        for (int val = 1; val <= m; val++) {
+            if (val % n == 0)
+                divisibleSum += val;
             else
-                nonDivisibleSum += i;
+                nonDivisibleSum += val;
         }
         return nonDivisibleSum - divisibleSum;
     }
