@@ -14,6 +14,6 @@ public class DifferenceRange {
 
     public static void main(String[] args) {
         DifferenceRange differenceRange = new DifferenceRange();
-        System.out.println(differenceRange.differenceOfSum(18, 2));
+        System.out.println(differenceRange.differenceOfSum(10, 2));
     }
 }
