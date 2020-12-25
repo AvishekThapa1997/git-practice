@@ -14,6 +14,6 @@ public class DifferenceRange {
     }
 
     public static void main(String[] args) {
-        DifferenceRange differenceRange = new DifferenceRange();
+
     }
 }
