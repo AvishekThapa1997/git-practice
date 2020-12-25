@@ -9,6 +9,7 @@ public class DifferenceRange {
             else
                 nonDivisibleSum += i;
         }
+        System.out.println(nonDivisibleSum - divisibleSum);
         return nonDivisibleSum - divisibleSum;
     }
 
